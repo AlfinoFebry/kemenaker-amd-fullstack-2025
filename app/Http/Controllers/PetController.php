@@ -110,7 +110,9 @@ class PetController extends Controller
      */
     public function destroy(Pet $pet)
     {
-        //
+        $pet->delete();
+
+        return redirect()->route('pets.index')->with('success', 'Data hewan berhasil dihapus.');
     }
 
     private function parsePetInput(string $input): array
