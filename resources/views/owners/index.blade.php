@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="row mx-1 mb-3" data-aos="fade-down-right" data-aos-duration="1500">
-                    <button style="width: 170px;"
+                    <button style="width: 200px;"
                         type="button"
                         class="btn btn-sm btn-primary d-flex align-items-center me-2"
                         data-bs-toggle="modal"
